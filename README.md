@@ -1,5 +1,5 @@
 # Praktikum  - Pflichtenheft...Abnahme
 
 
-## Gruppe: <Ihre Gruppennummer>
-## Namen: <Ihr Name>
+## Gruppe: <Ihre Gruppennummer aus moodle>
+## Namen: <Ihre Namen>
