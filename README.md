@@ -1,5 +1,5 @@
 # Praktikum  - Pflichtenheft...Abnahme
 
 
-## Gruppe: <Ihre Gruppennummer aus moodle>
-## Namen: <Ihre Namen>
+## Gruppe: p54
+## Namen: Grace Guiadem & Franck Effa
