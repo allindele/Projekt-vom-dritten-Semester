@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><meta charset="UTF-8">
+    <link rel="icon" href="image.jpg" type="image/jpeg">
+    <link rel="stylesheet" type="text/css" href="stylegroesse.css">
+    <link rel="manifest" href="package.json">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Franck und Grace">
+    <meta name="description" content="Das ist eine Internet Plattform für die Bestellung der Schuluniformen 
+    der Schüler des Internats Las Cumbres">
+    <meta name="language" content="deutsch">
+    <title>Grösseauswahl der Schuluniformen des Internats Las Cumbres</title>
+  </head>
+    
+    <body id="tab">
+        <p> {{Eingangsnachricht}}</p>
+        <form action="" method="post">
+            <p> Machen Sie denn eine Angabe Bitte: <br />
+             <input type ="radio" name="groesse" value="XS"> X<br>
+             <input type ="radio" name="groesse" value="S"> S <br>
+             <input type ="radio" name="groesse" value="M"> M <br>
+             <input type ="radio" name="groesse" value="L"> L <br>
+             <input type ="radio" name="groesse" value="XL"> XL <br>
+             <input type ="radio" name="groesse" value="XXL"> XXL <br>
+             <input type="submit" value="Auswählen">
+            </p>
+        </form>
+        
+        <script src="https://unpkg.com/vue@next"></script>
+        <script src = "groesse.js"></script>
+        <p> <a href="index.html">Rückkehr</a></p>
+    
+    </body>
+</html>

@@ -1,7 +1,10 @@
 {
-  "name": "frontend",
-  "version": "0.0.0",
+  "name": "las-cumbras-internat-backend",
+  "version": "0.0.1",
   "private": true,
+  "description": "Web Application to order students uniforms",
+  "author": "Grace Guiadem & Franck Effa",
+  "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300&display=swap');
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.handlung {
+    margin-top: 1rem;
+    display: flex;
+    height: 5vh;   
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    background-image: url(ressource.jpeg);
+    z-index: -100;
+    color: white;
+}
+.logo {
+    position: relative;
+    top: 10%;
+    left: 45%;
+}
+form {
+    margin: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.title {
+    text-align: center;
+    padding-bottom: -2rem;
+}
+hr {
+    margin: 10px 0;
+    background-color: white;
+    border: 0;
+    height: 1px;
+    width: 100%;
+}
+label {
+    margin-bottom: 6px;
+}
+input:focus {
+    border: 1px solid #17a2b8;
+}
+button[type = "submit"] {
+    margin-top: 15px;
+    background-color: #17a2b8;
+    color: white;
+    border: 1px solid #17a2b8;
+    cursor: pointer;
+}
