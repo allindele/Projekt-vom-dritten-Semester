@@ -1,11 +1,24 @@
 # Projekttitel und Information:
-Geben Sie den Projekttitel, das Erstellungsdatum, den Verfasser und die Version des Pflichtenhefts an.
+
+Projekttitel: lci-uniform-bestellen
+Erstellungsdatum: 15-11-2023
+Verfasser: Grace Guiadem & Loic Effa
+Version: 0.0.1
+
 
 # Zusammenfassung:
-Eine kurze Zusammenfassung des Projekts, die die Hauptziele und den Zweck des Web-Software-Produkts beschreibt.
+Das Projekt muss zur Vereinfachung der Bestellung neuer Uniformen in einem Internat und zur Benachrichtigung des Pensionäres bzw. der Pensionärin, wenn es bereits ist, dienen.
+
 
 # Projekthintergrund:
-Erklären Sie den Kontext und die Notwendigkeit des Web-Software-Produkts. Warum wird es entwickelt, und welchen Mehrwert wird es bieten?
+- Da Bestellungen in der Regel auf Papier entegengenommen wurden, gab es einen Verlust der Informationen.
+
+- Beschwerde über Vertauschungen der Größe der Uniformen.
+
+- Es fehlt eine Übersicht auf dem Zustand von bearbeiteten und nicht bearbeiteten Bestellungen.
+
+- Bestellprozess und Verwaltung vereinfachen sowohl für Nähabteilung des Internats als auch für die Internatsschüler.
+
 
 # Projektziele:
 Klare und messbare Ziele für das Web-Software-Produkt. Verwenden Sie das SMART-Kriterium: spezifisch, messbar, erreichbar, relevant und zeitgebunden.
@@ -14,7 +27,11 @@ Klare und messbare Ziele für das Web-Software-Produkt. Verwenden Sie das SMART-
 Definieren Sie die Zielgruppen, für die das Produkt entwickelt wird. Wer sind die Hauptbenutzer und welche Bedürfnisse haben sie?
 
 # Funktionale Anforderungen:
-Eine detaillierte Liste der Funktionen und Features, die die Web-Software erfüllen muss. Beschreiben Sie, wie diese Funktionen funktionieren sollen.
+- Bestellung eine Uniform
+- Anzeigen Alle Bestellungen
+- Senden einer Nachricht per Mail zur Signalierung der Verfügbarkeit
+- Löschen einer Bestellung
+
 
 # Nicht-funktionale Anforderungen:
 Spezifikationen, die nicht direkt mit den Funktionen zu tun haben, wie z. B. Leistungsanforderungen, Sicherheit, Skalierbarkeit, Barrierefreiheit, Browserkompatibilität usw.
@@ -23,12 +40,18 @@ Spezifikationen, die nicht direkt mit den Funktionen zu tun haben, wie z. B. Lei
 Beschreibung des Designs, der Benutzeroberfläche und der Benutzerinteraktion. Verwenden Sie Mock-ups oder Wireframes, um die Visualisierung zu unterstützen.
 
 # Technologiestack:
+Typescript
+Vuejs
+ExpressJs
+MongoDB
 Eine Liste der Technologien, Frameworks und Plattformen, die für die Entwicklung der Web-Software verwendet werden sollen.
 
 # Datenbank- und Speicheranforderungen:
+MongoDB: Nosql DB
 Spezifikationen für die Datenbankstruktur, die Datenspeicherung und -verwaltung.
 
 # Sicherheitsanforderungen:
+Authentifizierung/Autorisierung musst dür die Admin Ansicht definiert werden
 Anforderungen in Bezug auf Benutzerdatenschutz, Datenschutz, Authentifizierung, Autorisierung und Maßnahmen zur Sicherheit.
 
 # Compliance und rechtliche Anforderungen:
