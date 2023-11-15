@@ -1,9 +1,9 @@
 # Projekttitel und Information:
 
-Projekttitel: lci-uniform-bestellen
-Erstellungsdatum: 15-11-2023
-Verfasser: Grace Guiadem & Loic Effa
-Version: 0.0.1
+- Projekttitel: lci-uniform-bestellen
+- Erstellungsdatum: 15-11-2023
+- Verfasser: Grace Guiadem & Loic Effa
+- Version: 0.0.1
 
 
 # Zusammenfassung:
@@ -40,14 +40,14 @@ Spezifikationen, die nicht direkt mit den Funktionen zu tun haben, wie z. B. Lei
 Beschreibung des Designs, der Benutzeroberfläche und der Benutzerinteraktion. Verwenden Sie Mock-ups oder Wireframes, um die Visualisierung zu unterstützen.
 
 # Technologiestack:
-Typescript
-Vuejs
-ExpressJs
-MongoDB
+- Typescript
+- Vuejs
+- ExpressJs
+- MongoDB
 Eine Liste der Technologien, Frameworks und Plattformen, die für die Entwicklung der Web-Software verwendet werden sollen.
 
 # Datenbank- und Speicheranforderungen:
-MongoDB: Nosql DB
+- MongoDB: Nosql DB
 Spezifikationen für die Datenbankstruktur, die Datenspeicherung und -verwaltung.
 
 # Sicherheitsanforderungen:
